@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.Login-component {
+    /* The image used */
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('./images/offer_friend.jpg');
+
+    /* Full height */
+    height: 500px; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front-heading{
+    
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 3px gray;
+    padding-top: 80px;
+    padding-left: 25px;
+    font-size: 38px;
+    letter-spacing: 2px;
+    background-color: radial-gradient(rgba(27, 26, 26, 0.8),rgba(22, 21, 21, 0.6));
+
+}
+
+.front-text{
+    color: white;
+    font-size: 17px;
+    padding-left: 20px;
+    max-width: 550px;
+    background-color: radial-gradient(rgba(27, 26, 26, 0.8),rgba(22, 21, 21, 0.6));
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
